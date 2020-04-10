@@ -1,0 +1,107 @@
+body {
+  background: #ffffff;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+table { 
+border-spacing: 0;
+border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+}
+
+input {
+    color: #000000;
+}
+
+input[type="text"] {
+    color: #000000;
+    height: 30px;
+    font-size: 20px;
+}
+
+#background {
+    border: 5px groove;
+    width:600px;
+    height:620px;
+    background:#4d148c;
+    color: #ffffff;
+    margin:10px auto;
+    padding: 0;
+}
+
+button {
+    border:0;
+    color:#ffffff;
+}
+
+.center {
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.header {
+    background:#ff6600;
+    border-bottom: 2px #cccccc solid;
+    border-top: 2px #cccccc solid;
+    height: 120px;
+}
+
+.result {
+    font-family: sans-serif;
+    width: 230px;
+    height: 40px;
+    text-align: center;
+    border: 0;
+    background: #4d148c;
+    color: #ffffff;
+    padding-top: 0;
+    font-size: 20px;
+    outline: none;
+    overflow: hidden;
+    letter-spacing: 4px;
+    padding: 4px 4px 8px 4px;
+}
+
+/* Button styling */
+.btn-style {
+    width: 200px;
+    height:50px;
+    margin-left:5px;
+    border-radius:4px;
+    margin-bottom: 10px;
+}
+
+/* Adding background color to the number values */
+ .num-bg {
+    background: #ff6600;
+    color:#ffffff;
+    font-size:26px;
+    cursor:pointer;
+    outline:none;
+    border-bottom:3px solid #333;
+    margin-top: 5px;
+}
+
+ .num-bg:active {
+    background:#000;
+    color:#ffffff;
+    font-size:26px;
+    cursor:pointer;
+    outline:none;
+    box-shadow: inset 5px 5px 5px #555;
+}
+
+/* Additional */
+.borderRight {
+    border-right: 3px solid #ccc;
+}
+#a, #b, #c, #d, #e, #f, #g, #h, #i, #j, #k, #l, #m, #n, #o, #q, #r, #s, #t, #u, #v, #w, #x, #y, #z, #aa, #aaa, #bbb, #bbbb {
+    text-align: center;
+}
