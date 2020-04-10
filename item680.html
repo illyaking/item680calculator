@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<!--
+File Name: item680.html
+Date: 11/04/18
+Programmer: Illya King
+-->
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+
+        <title>ITEM 680 Calculator</title>
+
+        <link rel="stylesheet" href="styles/item680.css">
+
+    </head>
+
+    <body id = "myBody">
+
+        <div>
+            <table class="center">
+                <tr>
+                    <td valign="top">
+                        <table id="background">
+                            <tr>
+                                <td class="header" colspan="6">
+                                    <h2>Capacity of Freight on Pallet</h2>
+                                <p>Enter dimensions below for skid units</p></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Length</td>
+                                <td>Width</td>
+                                <td>Height</td>
+                                <td>Sqaure Inches</td>
+                                <td>Square Feet</td>
+                            </tr>
+
+                    <tr>
+                        <td>Pallet DIM</td>
+                        <td class="result"><input type="text" id="a" size="4" value="" /></td>
+                        <td class="result"><input type="text" id="b" size="4" value="" /></td>
+                        <td></td>
+                        <td class="result"><input type="text" id="c" size="4" value="" disabled/></td>
+                        <td class="result borderRight"><input type="text" id="d" size="4" value="" disabled/></td>
+                    </tr>
+                    
+                    <tr>
+                        <td >Commodity DIM</td>
+                        <td class="result"><input type="text" id="e" size="4" value="" /></td>
+                        <td class="result"><input type="text" id="f" size="4" value="" /></td>
+                        <td class="result"><input type="text" id="aa" size="4" value="" /></td>
+                        <td class="result"><input type="text" id="g" size="4" value="" disabled/></td>
+                        <td class="result borderRight"><input type="text" id="h" size="4" value="" disabled/></td>
+                    </tr>
+
+                    <tr>
+                        <td>Shortest Base</td>
+                        <td class="result"><input type="text" id="k" size="4" value="" disabled/></td>
+                        <td>X 1.5</td>
+                        <td><input type="text" id="l" size="4" value="" disabled/></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    
+                    <tr>
+                        <td >Height X 0.67</td>
+                        <td class="result"><input type="text" id="m" size="4" value="" disabled/></td>
+                        <td class="result"><input type="text" id="bbbb" size="4" value="" disabled/></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Commodity + 12"</td>
+                        <td class="result"><input type="text" id="n" size="4" value="" disabled/></td>
+                        <td class="result"><input type="text" id="o" size="4" value="" disabled/></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Max Pallet Dimensions</td>
+                        <td class="result"><input type="text" id="aaa" size="4" value="" disabled/></td>
+                        <td class="result"><input type="text" id="bbb" size="4" value="" disabled/></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="3"><input type="button" value="Calculate" class="btn-style num-bg operator"  onclick="operator"/></td>
+                        <td colspan="3"><input type="reset" value="Clear All" class="btn-style num-bg" id="clear" /></td> 
+                    </tr>
+
+                    <tr>
+                        <td colspan="3" class="result">Total Space Occupied <input type="text" value="" id="i" size="12" disabled/></td>
+                        <td colspan="3" class="result">ITEM 680 Applies? <input type="text" value="" id="j" size="12" disabled/></td>
+                    </tr>
+                    
+
+                </table>
+                    </td>
+                    <td valign="top">
+                        <table id="background">
+                            <tr>
+                                <td class="header" colspan="6">
+                                    <h2>Capacity of Freight in Container</h2>
+                                    <p>Enter height dim below for totes, crates, gaylords, etc.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Length</td>
+                                <td>Width</td>
+                                <td>Height</td>
+                                <td>CU Feet</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Crate DIM</td>
+                                <td class="result"><input type="text" id="q" size="4" value="" /></td>
+                                <td class="result"><input type="text" id="r" size="4" value="" /></td>
+                                <td class="result"><input type="text" id="s" size="4" value="" /></td>
+                                <td class="result"><input type="text" id="t" size="4" value="" disabled/></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td >Commodity DIM</td>
+                                <td class="result"><input type="text" id="u" size="4" value="" /></td>
+                                <td class="result"><input type="text" id="v" size="4" value="" /></td>
+                                <td class="result"><input type="text" id="w" size="4" value="" /></td>
+                                <td class="result"><input type="text" id="x" size="4" value="" disabled/></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td colspan="3"><input type="button" value="Calculate" class="btn-style num-bg operator2" /></td>
+                                <td colspan="3"><input type="button" value="Clear All" class="btn-style num-bg" id="clear2" /></td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" class="result">Total Space Occupied <input type="text" value="" id="y" size="12" disabled/></td>
+                                <td colspan="3" class="result">ITEM 680 Applies? <input type="text" value="" id="z" size="12" disabled/></td>
+                            </tr>
+                            <tr>
+                                <td colspan="6"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="6"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="6"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="6"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="6"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="scripts/item680.js"></script>
+
+    </body>
+
+</html>
